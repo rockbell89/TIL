@@ -211,4 +211,4 @@ Object.defineProperty(person, 'age', {value : 20});
 ```
 
 ### 불변 객체
-Object.freeze() 메서드로 객체를 동결하도 중첩 객체까지는 동결 할 수 없으며, 중첩 객체까지 동결하려면 객체를 값으로 갖는 프로퍼티에 대해 재귀적으로 Object.freeze() 메서드를 호출해야한다
+Object.freeze() 메서드로 객체를 동결해도 중첩 객체까지는 동결 할 수 없으며, 중첩 객체까지 동결하려면 객체를 값으로 갖는 프로퍼티에 대해 재귀적으로 Object.freeze() 메서드를 호출해야한다
